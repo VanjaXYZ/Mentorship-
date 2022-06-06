@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+/* ---------------- .head1 ------------ */
+
+header > .head1 {
+    display: flex;
+    }
+
+.head1 input {
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.head1 img {
+    max-width: 35px;
+}
+
+/* ------------ .head2 ---------------- */
+
+
+
+.head2 img {
+    max-width: 25px;
+    margin: 30px;
+   }
+
+
+
+/* -------------- .head3 ---------------- */
+
+
+
+.head3 img {
+    max-width: 25px;
+    margin: 10px;
+}
+
+.username {
+    display: inline;
+}
+
+.username a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8em;
+   
+}
+
+.username img {
+    max-width: 18px;
+}
+
+
