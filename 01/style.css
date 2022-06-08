@@ -1,65 +1,58 @@
-body {
+* {
+    padding: 0;
     margin: 0;
 }
-
 header {
-    padding: 5px;
-    width: 100%;
-    height: 40px;
-    background: #333;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    }
-
-/* ---------------- .head1 ------------ */
-
-header > .head1 {
-    display: flex;
-    }
-
-.head1 input {
-    border-radius: 30px;
-    padding: 5px;
-}
-
-.head1 img {
-    max-width: 35px;
-}
-
-/* ------------ .head2 ---------------- */
-
-
-
-.head2 img {
-    max-width: 25px;
-    margin: 30px;
-   }
-
-
-
-/* -------------- .head3 ---------------- */
-
-
-
-.head3 img {
-    max-width: 25px;
     margin: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+header, .icon3, .i {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .item1 > input{
+    border-radius: 30px;
+    padding: 4px;
 }
 
 .username {
-    display: inline;
+    background-image: url(img/user_avatar.png);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 
-.username a {
-    color: #fff;
+
+
+.icon2 {
+    margin-left: 50px;
+    padding: 3px;
+    
+}
+
+.icon2:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    
+}
+
+.icon3 {
+    margin-left: 30px
+}
+
+.icon3:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+header > .item3 > a{
     text-decoration: none;
-    font-size: 0.8em;
-   
-}
+    color: #000;
+    border-radius: 30px;
+    }
 
-.username img {
-    max-width: 18px;
-}
-
-
+    
