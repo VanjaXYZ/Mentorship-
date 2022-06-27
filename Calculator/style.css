@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Glavni Okvir */
+.main-frame {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    overflow: hidden;
+        }
+
+
+/* Ispisivanje Rezultata I Upisa */
+.result-frame {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top right, rgba(31, 31, 31, 0.1), rgba(0, 255, 0, 0.3));
+    position: relative;
+}
+
+.result-frame > p {
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+    font-size: 5em;
+}
+
+.used-colors {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.used-colors > .color-example:nth-child(2){
+    background-color: #f1b338;
+    margin-left: 15px;
+}
+
+
+
+.color-example {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(to top right, rgba(31, 31, 31, 0.7), rgba(0, 255, 0, 0.5))
+}
+
+
+
+
+/* Brojevi I Operacije */
+.operations-frame {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-areas: "AC half perc divide"
+                         "seven eight nine mult"
+                         "four five six min"
+                         "one two three add"
+                         "zero zero dot equal"; 
+}
+
+#zero{
+    grid-area: zero;
+}
+
+.numbers-and-ops {
+    font-size: 2.5em;
+    font-weight: bold;
+    border: 1px solid;
+    color: #fff;
+    background: linear-gradient(to top right, rgba(31, 31, 31, 0.7), rgba(0, 255, 0, 0.5))
+}
+
+#divide {
+    background-color: #f1b338;
+        }
+
+#mult {
+    background-color: #f1b338;
+   }
+
+#min {
+    background-color: #f1b338;
+    }
+
+#add {
+    background-color: #f1b338;
+    }
+
+#equal {
+    background-color: #f1b338;
+}
+
