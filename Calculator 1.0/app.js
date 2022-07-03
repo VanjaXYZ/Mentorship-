@@ -23,3 +23,4 @@ document.getElementById('clear').addEventListener('click', () => {
     input2.value = '';
     result.value = '';
 });
+
