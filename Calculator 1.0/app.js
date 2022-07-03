@@ -22,7 +22,7 @@ document.getElementById('mult').addEventListener('click', () => {
 document.getElementById('div').addEventListener('click', () => {
 
     if(Number(input2.value) == 0){
-        result.value = 'Undefined';
+        result.value = 'UNDEFINED';
     }else{
         result.value = Number(input1.value) / Number(input2.value);
     }
