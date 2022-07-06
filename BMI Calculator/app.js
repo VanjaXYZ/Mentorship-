@@ -3,6 +3,9 @@ let height = document.getElementById('input2');
 let result = document.getElementById('result');
 
 
+
+
+
 // BMI Formula
 
 function calcBMI() {
@@ -11,6 +14,7 @@ function calcBMI() {
         result.value = document.getElementById('result').style.borderColor = 'black';
         result.value = '⚠ Invalid Inputs ⚠';
     } else {
+        
        result.value = document.getElementById('result').style.color = 'black';
        
        result.value = 'BMI: ' + (Number(mass.value) / Number(height.value)**2).toFixed(2);
@@ -28,6 +32,6 @@ document.getElementById('clear').addEventListener('click', () => {
     result.value = '';
 })
 
-/*
-dole lijevo postaviti ikonicu za flip-over i na toj stranici napisati objasnjenje kako se racuna BMI i koja je klasifikacija
-*/
+
+
+
